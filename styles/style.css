@@ -55,9 +55,20 @@ h1, h2, h3 {
 }
 
 .userpic__image {
-  max-width: 10rem;
-  max-height: 10rem;
+  width: 10rem;
+  height: 10rem;
   border-radius: 50%;
+  background-image: url("https://s.gravatar.com/avatar/df7ac52e9da64e8d8f8eb9632f6487ff?s=300");
+  background-repeat: round;
+  border-width: 0;
+}
+
+.userpic__image:active {
+  background-image: url("https://s.gravatar.com/avatar/1e042544e99587266613a5702275226b?s=300");
+}
+
+.userpic__image:focus {
+  outline: 0;
 }
 
 .article {
