@@ -33,7 +33,7 @@ h1, h2, h3 {
   flex: 1 1 auto;
 }
 
-.wnd__article {
+.wnd__contacts {
   flex: 1 1 auto;
   display: flex;
   flex-flow: column;
@@ -45,7 +45,7 @@ h1, h2, h3 {
   align-items: center;
 }
 
-.header__title, .header__userpic-container {
+.header__column{
   flex: 1 1 0;
   padding: 1rem;
 }
@@ -54,7 +54,7 @@ h1, h2, h3 {
   text-align: end;
 }
 
-.userpic__image {
+.photo__btn {
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
@@ -63,26 +63,22 @@ h1, h2, h3 {
   border-width: 0;
 }
 
-.userpic__image:active {
+.photo__btn:active {
   background-image: url("https://s.gravatar.com/avatar/1e042544e99587266613a5702275226b?s=300");
 }
 
-.userpic__image:focus {
+.photo__btn:focus {
   outline: 0;
 }
 
-.article {
+.contacts {
   padding: 0 1rem 1rem 1rem;
 }
 
-.article__header {
+.contacts__links {
   text-align: center;
 }
 
-.contact-links {
-  text-align: center;
-}
-
-.contact-links a+a {
+.contacts__links a + a {
   margin-left: 1rem;
 }
